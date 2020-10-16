@@ -15,7 +15,6 @@
         <RadioButton x:Name="azulRadioButton" Checked="azulRadioButton_Checked" GroupName="colorGroupName" IsChecked="True" Content="Azul" HorizontalAlignment="Left" Margin="549,53,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="rojoRadioButton" Checked="rojoRadioButton_Checked" GroupName="colorGroupName" Content="Rojo" HorizontalAlignment="Left" Margin="549,73,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="verdeRadioButton" Checked="verdeRadioButton_Checked" GroupName="colorGroupName" Content="Verde" HorizontalAlignment="Left" Margin="549,93,0,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="textoFinalTextBlock" HorizontalAlignment="Left" Margin="53,211,0,0" TextWrapping="Wrap" TextAlignment="Center" Text="" VerticalAlignment="Top" Width="545" Height="27" Background="#FFEAFBBE" FontSize="18" Foreground="Blue"/>
-
+        <TextBlock x:Name="textoFinalTextBlock" HorizontalAlignment="Left" TextTrimming="CharacterEllipsis" Margin="53,211,0,0" TextWrapping="Wrap" TextAlignment="Center" Text="" VerticalAlignment="Top" Width="545" Height="27" Background="#FFEAFBBE" FontSize="18"/>
     </Grid>
 </Window>
